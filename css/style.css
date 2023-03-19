@@ -320,7 +320,7 @@ a{
 
  .navigation-compact_sidebar-bottom_button{
     position: relative;
-    width: 328px !important;
+    max-width: 328px !important;
     min-height: 40px !important;
     background-color: #932019;
     border-radius: 4px;
