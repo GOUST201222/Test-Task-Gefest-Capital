@@ -17,22 +17,21 @@
 </head>
 <body>
     <nav class="navigation">
-        
             <ul class="navigation-desktop">
-                <li class="navigation-desktop_left">
-                    <a href="#" class="navigation-desktop_left-logo">
+                <li class="navigation-desktop__left">
+                    <a href="#" class="navigation-desktop__left_logo">
                         <img src="assets/svg/logo.svg" alt="logo">
                     </a>
                 </li>
                 <li>
-                    <ul class="navigation-desktop_center">
-                        <li><a href="#">О компании</a></li>
-                        <li><a href="#">Проекты</a></li>
-                        <li><a href="#">Контакты</a></li>
-                        <li class="navigation-desktop_right">
-                            <a href="#" class="navigation-desktop_button">
-                                <img src="assets/svg/phone-icon.svg" alt="phone-icon" class="navigation-desktop_button_icon">
-                                <span class="navigation-desktop_button_number">
+                    <ul class="navigation-desktop__center">
+                        <li class="navigation-desktop__center__item"><a href="#" class="navigation-desktop__center__item_line">О компании</a></li>
+                        <li class="navigation-desktop__center__item"><a href="#" class="navigation-desktop__center__item_line">Проекты</a></li>
+                        <li class="navigation-desktop__center__item"><a href="#" class="navigation-desktop__center__item_line">Контакты</a></li>
+                        <li class="navigation-desktop__right">
+                            <a href="#" class="navigation-desktop__button">
+                                <img src="assets/svg/phone-icon.svg" alt="phone-icon" class="navigation-desktop__button__icon">
+                                <span class="navigation-desktop__button__number">
                                     +7 (499) 999-99-99
                                 </span>
                             </a>
@@ -43,13 +42,13 @@
         
         
             <ul class="navigation-compact">
-                <li class="navigation-compact_left">
-                    <a href="#" class="navigation-compact_left_logo">
+                <li class="navigation-compact__left">
+                    <a href="#" class="navigation-compact__left_logo">
                         <img src="assets/svg/logo.svg" alt="logo">
                     </a>
                 </li>
-                <li class="navigation-compact_right">
-                    <a class="navigation-compact_right_menu sidebarTrigger" data-sidebar-id="sidebar-menu">
+                <li class="navigation-compact__right">
+                    <a class="navigation-compact__right_menu sidebarTrigger" data-sidebar-id="sidebar-menu">
                         <img src="assets/svg/menu-icon.svg" alt="menu-icon">
                     </a>
                 </li>
@@ -57,126 +56,114 @@
         
     </nav>
     <!--Sidebar-->
-    <nav class="navigation-compact_sidebar sidebar" data-sidebar-id="sidebar-menu">
-        <ul class="navigation-compact_sidebar-top">
-            <li>
-                <a href="#" class="navigation-compact-sidebar_left">
+    <nav class="navigation-compact__sidebar" data-sidebar-id="sidebar-menu">
+        <ul class="navigation-compact__sidebar__top">
+            <li class="navigation-compact__sidebar__top__left">
+                <a href="#" class="navigation-compact__sidebar__top__left_logo">
                     <img src="assets/svg/logo.svg" alt="logo">
                 </a>
             </li>
-            <li>
-                <a class="navigation-compact-sidebar_right close">
+            <li class="navigation-compact__sidebar__top__right">
+                <a class="navigation-compact__sidebar__top__right_close">
                     <img src="assets/svg/close_icon.svg" alt="close-icon">
                 </a>
             </li>
         </ul>
-        <ul class="navigation-compact_sidebar-bottom">
-            <li class="navigation-compact_sidebar-bottom_text"><a href="#">О компании</a></li>
-            <li class="navigation-compact_sidebar-bottom_text"><a href="#">Проекты</a></li>
-            <li class="navigation-compact_sidebar-bottom_text"><a href="#">Контакты</a></li>
+        <ul class="navigation-compact__sidebar__bottom">
+            <li class="navigation-compact__sidebar__bottom_text"><a href="#">О компании</a></li>
+            <li class="navigation-compact__sidebar__bottom_text"><a href="#">Проекты</a></li>
+            <li class="navigation-compact__sidebar__bottom_text"><a href="#">Контакты</a></li>
             <li>
-                <a href="#" class="navigation-compact_sidebar-bottom_button">
-                    <img src="assets/svg/phone-icon.svg" alt="phone-icon" class="navigation-compact_sidebar-bottom_button_icon">
-                    <span class="navigation-compact_sidebar-bottom_button_number">
+                <a href="#" class="navigation-compact__sidebar__bottom_button">
+                    <img src="assets/svg/phone-icon.svg" alt="phone-icon" class="navigation-compact__sidebar__bottom_button_icon">
+                    <span class="navigation-compact__sidebar__bottom_button_number">
                         +7 (499) 111-22-33
                     </span>
                 </a>
             </li>
         </ul>
-        
-        
     </nav>
+    <!--Section-->
     <section class="section">
-        
-        <ul class="section-content">
-            <li class="section-content-left">
-                <a href="#" class="section-content-left_back"><img src="assets/svg/back-arrow.svg" alt="back-arrow" class="section-content-left_back-icon">Вернуться назад</a>
-                <h1 class="section-content-left-heading">квартира 1</h1>
-                <div class="section-content-left-description">
-                    <p class="section-content-left-description-adress">Адрес:</p>
-                
-                    <p class="section-content-left-description-paragraph">ЮВАО, ул. Барыкина, д.5к2 тут будет вторая и третья строка адреса объекта</p>
+        <ul class="section__content">
+            <li class="section__content__left">
+                <a href="#" class="section__content__left_back"><img src="assets/svg/back-arrow.svg" alt="back-arrow" class="section__content__left_back-icon">Вернуться назад</a>
+                <h1 class="section__content__left_heading">квартира 1</h1>
+                <div class="section__content__left__description">
+                    <p class="section__content__left__description_adress">Адрес:</p>
+                    <p class="section__content__left__description_paragraph">ЮВАО, ул. Барыкина, д.5к2 тут будет вторая и третья строка адреса объекта</p>
                 </div>
             </li>
-            <li class="section-content-right">
-
-<!---->
-
-<div style="--swiper-navigation-color: red; --swiper-pagination-color: #fff" class="swiper mySwiper2">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="assets/img/image 12.jpg" alt="1"></div>
-        <div class="swiper-slide"><img src="assets/img/image 20.jpg" alt="2"></div>
-        <div class="swiper-slide"><img src="assets/img/image 21.jpg" alt="3"></div>
-        <div class="swiper-slide"><img src="assets/img/image 22.jpg" alt="4"></div>
-        <div class="swiper-slide"><img src="assets/img/image 23.jpg" alt="5"></div>
-        <div class="swiper-slide"><img src="assets/img/image 24.jpg" alt="6"></div>
-        <div class="swiper-slide"><img src="assets/img/image 25.jpg" alt="7"></div>
-        <div class="swiper-slide"><img src="assets/img/image 26.jpg" alt="8"></div>
-        <div class="swiper-slide"><img src="assets/img/image 27.jpg" alt="9"></div>
-    </div>
-
-  </div>
-  <div thumbsSlider="" class="swiper mySwiper">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="assets/img/image 12.jpg" alt="1"></div>
-        <div class="swiper-slide"><img src="assets/img/image 20.jpg" alt="2"></div>
-        <div class="swiper-slide"><img src="assets/img/image 21.jpg" alt="3"></div>
-        <div class="swiper-slide"><img src="assets/img/image 22.jpg" alt="4"></div>
-        <div class="swiper-slide"><img src="assets/img/image 23.jpg" alt="5"></div>
-        <div class="swiper-slide"><img src="assets/img/image 24.jpg" alt="6"></div>
-        <div class="swiper-slide"><img src="assets/img/image 25.jpg" alt="7"></div>
-        <div class="swiper-slide"><img src="assets/img/image 26.jpg" alt="8"></div>
-        <div class="swiper-slide"><img src="assets/img/image 27.jpg" alt="9"></div>
-    </div>
-    <div class="swiper-buttons" style="display: flex; justify-content: flex-end;">
-        <div class="swiper-button-prev"><img src="assets/svg/arrow-prev.svg" alt="prevSlide" id="prevSlide"></div>
-        <div class="swiper-button-next"><img src="assets/svg/arrow-next.svg" alt="nextSlide" id="nextSlide"></div>
-    
-      </div>
-  </div>
-
-  
-
+            <li class="section__content__right">
+                <div style="--swiper-navigation-color: red; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/img/image 12.jpg" alt="1"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 20.jpg" alt="2"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 21.jpg" alt="3"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 22.jpg" alt="4"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 23.jpg" alt="5"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 24.jpg" alt="6"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 25.jpg" alt="7"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 26.jpg" alt="8"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 27.jpg" alt="9"></div>
+                    </div>
+                </div>
+                <div thumbsSlider="" class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/img/image 12.jpg" alt="1"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 20.jpg" alt="2"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 21.jpg" alt="3"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 22.jpg" alt="4"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 23.jpg" alt="5"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 24.jpg" alt="6"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 25.jpg" alt="7"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 26.jpg" alt="8"></div>
+                        <div class="swiper-slide"><img src="assets/img/image 27.jpg" alt="9"></div>
+                    </div>
+                    <div class="swiper-buttons" style="display: flex; justify-content: flex-end;">
+                        <div class="swiper-button-prev"><img src="assets/svg/arrow-prev.svg" alt="prevSlide" id="prevSlide"></div>
+                        <div class="swiper-button-next"><img src="assets/svg/arrow-next.svg" alt="nextSlide" id="nextSlide"></div>
+                    </div>
+                </div>
             </li>
         </ul>
-        <div class="section-bottom">
+        <div class="section__bottom">
             <ul>
                 <li>
-                    <ul class="section-bottom-left">
-                        <li>
+                    <ul class="section__bottom__left">
+                        <li class="section__bottom__left__item">
                                 <img src="assets/img/plan.png" alt="plan">
                         </li>
-                        <li>
-                            <p class="section-bottom-up-description">Площадь</p>
-                            <p class="section-bottom-bottom-description">73.01 м<sup>2</sup></p>
+                        <li class="section__bottom__left__item">
+                            <p class="section__bottom__left__item__top-description">Площадь</p>
+                            <p class="section__bottom__left__item__bottom-description">73.01 м<sup>2</sup></p>
                         </li>
-                        <li>
-                            <p class="section-bottom-up-description">Этаж</p>
-                            <p class="section-bottom-bottom-description">1/1</p>
+                        <li class="section__bottom__left__item">
+                            <p class="section__bottom__left__item__top-description">Этаж</p>
+                            <p class="section__bottom__left__item__bottom-description">1/1</p>
                         </li>
-                        <li>
-                            <p class="section-bottom-up-description">Ставка м<sup>2</sup>/год</p>
-                            <p class="section-bottom-bottom-description">56 099 ₽</p>
+                        <li class="section__bottom__left__item">
+                            <p class="section__bottom__left__item__top-description">Ставка м<sup>2</sup>/год</p>
+                            <p class="section__bottom__left__item__bottom-description">56 099 ₽</p>
                         </li>
-                        <li>
-                            <p class="section-bottom-up-description">Стоимость</p>
-                            <p class="section-bottom-bottom-description">120 000 ₽/мес <a href="#" class="section-bottom-bottom-description-arrow"><img src="assets/svg/arrow-info.svg" alt="arrow-info" ></a></p>
+                        <li class="section__bottom__left__item">
+                            <p class="section__bottom__left__item__top-description">Стоимость</p>
+                            <p class="section__bottom__left__item__bottom-description">120 000 ₽/мес <a href="#" class="section__bottom__left__item__bottom-description_arrow"><img src="assets/svg/arrow-info.svg" alt="arrow-info" ></a></p>
                         </li>
-                        <li>
+                        <li class="section__bottom__left__item">
                             <img src="assets/svg/Pointing.svg" alt="cursor">
                         </li>
                     </ul>
-                        
                 </li>
                 <li>
-                    <ul class="section-bottom-right">
-                        <li class="section-bottom-name">
-                            <p class="section-bottom-name-description">Филлипов Христафор Константинович</p>
+                    <ul class="section__bottom__right">
+                        <li class="section__bottom__right__item">
+                            <p class="section__bottom__right__item-description">Филлипов Христафор Константинович</p>
                         </li>
-                        <li>
-                            <a href="#" class="section-bottom_button ">
-                                <img src="assets/svg/phone-icon.svg" alt="phone-icon" class="section-bottom_button_icon">
-                                <span class="section-bottom_button_number">
+                        <li class="section__bottom__right__item">
+                            <a href="#" class="section__bottom_button">
+                                <img src="assets/svg/phone-icon.svg" alt="phone-icon" class="section__bottom_button-icon">
+                                <span class="section__bottom_button_number">
                                     +7 (499) 111-22-33
                                 </span>
                             </a>
@@ -185,57 +172,56 @@
                 </li>
             </ul>
         </div>
-        <div class="section-bottom-tablet">
-            <ul class="section-bottom-tablet-top">
-                <li>
-                    
-                    <p class="section-bottom-tablet-top-price">120 000 <span>₽/мес</span></p>
+        <div class="section__bottom__tablet">
+            <ul class="section__bottom__tablet__top">
+                <li class="section__bottom__tablet__top__item">
+                    <p class="section__bottom__tablet__top__item_price">120 000 <span>₽/мес</span></p>
                 </li>
-                <li>
-                    <ul class="section-bottom-tablet-top-right">
-                        <li>
-                            <p class="section-bottom-tablet-top-right-top-description">Площадь</p>
-                            <p class="section-bottom-tablet-top-right-bottom-description">73.01 м<sup>2</sup></p>
+                <li class="section__bottom__tablet__top__item">
+                    <ul class="section__bottom__tablet__top__item__right">
+                        <li class="section__bottom__tablet__top__item__right__item">
+                            <p class="section__bottom__tablet__top__item__right__item_top-description">Площадь</p>
+                            <p class="section__bottom__tablet__top__item__right__item_bottom-description">73.01 м<sup>2</sup></p>
                         </li>
-                        <li>
-                            <p class="section-bottom-tablet-top-right-top-description">Этаж</p>
-                            <p class="section-bottom-tablet-top-right-bottom-description">1/1</p>
+                        <li class="section__bottom__tablet__top__item__right__item">
+                            <p class="section__bottom__tablet__top__item__right__item_top-description">Этаж</p>
+                            <p class="section__bottom__tablet__top__item__right__item_bottom-description">1/1</p>
                         </li>
                     </ul>
                 </li>
             </ul>
-            <ul class="section-bottom-tablet-bottom">
-                <li class="section-bottom-tablet-bottom-name">
-                    <p class="section-bottom-tablet-bottom-name-description">Филлипов Христафор Константинович</p>
+            <ul class="section__bottom__tablet__bottom">
+                <li class="section__bottom__tablet__bottom__item">
+                    <p class="section__bottom__tablet__bottom__item-description">Филлипов Христафор Константинович</p>
                 </li>
-                <li>
-                    <a href="#" class="section-bottom_button ">
-                        <img src="assets/svg/phone-icon.svg" alt="phone-icon" class="section-bottom_button_icon">
-                        <span class="section-bottom_button_number">
+                <li class="section__bottom__tablet__bottom__item">
+                    <a href="#" class="section__bottom_button">
+                        <img src="assets/svg/phone-icon.svg" alt="phone-icon" class="section__bottom_button-icon">
+                        <span class="section__bottom_button_number">
                             +7 (499) 111-22-33
                         </span>
                     </a>
                 </li>
             </ul>
         </div>
-        <div class="section-bottom-phone">
-            <ul class="section-bottom-phone-top">
-                <li><p class="section-bottom-phone-top-price">120 000 <span>₽/мес</span><a href="#" class="section-bottom-bottom-description-arrow"><img src="assets/svg/arrow-info.svg" alt="arrow-info" ></a></p></li>
-                
-                <li>
-                    <ul class="section-bottom-phone-center">
+        <div class="section__bottom__phone">
+            <ul class="section__bottom__phone__top">
+                <li class="section__bottom__phone__top__item">
+                    <p class="section__bottom__phone__top__item_price">120 000 <span>₽/мес</span><a href="#" class="section__bottom__left__item__bottom-description_arrow"><img src="assets/svg/arrow-info.svg" alt="arrow-info" ></a></p></li>
+                <li class="section__bottom__phone__top__item">
+                    <ul class="section__bottom__phone__top__item__center">
                         <li>
-                            <ul class="section-bottom-phone-center-up-description">
-                                <li><p class="section-bottom-up-description">Площадь</p></li>
-                                <li><p class="section-bottom-up-description">Ставка м<sup>2</sup>/год</p></li>
-                                <li><p class="section-bottom-tablet-top-right-top-description">Этаж</p></li>
+                            <ul class="section__bottom__phone__top__item__center-up-description">
+                                <li><p class="section__bottom__left__item__top-description">Площадь</p></li>
+                                <li><p class="section__bottom__left__item__top-description">Ставка м<sup>2</sup>/год</p></li>
+                                <li><p class="section__bottom__tablet__top__item__right__item_top-description">Этаж</p></li>
                             </ul>
                         </li>
                         <li>
-                            <ul class="section-bottom-phone-center-bottom-description">
-                                <li><p class="section-bottom-bottom-description">73.01 м<sup>2</sup></p></li>
-                                <li><p class="section-bottom-bottom-description">56 099 ₽</p></li>
-                                <li><p class="section-bottom-tablet-top-right-bottom-description">1/1</p></li>
+                            <ul class="section__bottom__phone__top__item__center-bottom-description">
+                                <li><p class="section__bottom__left__item__bottom-description">73.01 м<sup>2</sup></p></li>
+                                <li><p class="section__bottom__left__item__bottom-description">56 099 ₽</p></li>
+                                <li><p class="section__bottom__tablet__top__item__right__item_bottom-description">1/1</p></li>
                             </ul>
                             
                         </li>
@@ -243,14 +229,14 @@
                     </ul>
                 </li>
             </ul>
-            <ul class="section-bottom-phone-bottom">
-                <li class="section-bottom-name">
-                    <p class="section-bottom-name-description">Филлипов Христафор Константинович</p>
+            <ul class="section__bottom__phone-bottom">
+                <li class="section__bottom__right__item">
+                    <p class="section__bottom__right__item-description">Филлипов Христафор Константинович</p>
                 </li>
                 <li>
-                    <a href="#" class="section-bottom_button ">
-                        <img src="assets/svg/phone-icon.svg" alt="phone-icon" class="section-bottom_button_icon">
-                        <span class="section-bottom_button_number">
+                    <a href="#" class="section__bottom_button ">
+                        <img src="assets/svg/phone-icon.svg" alt="phone-icon" class="section__bottom_button-icon">
+                        <span class="section__bottom_button_number">
                             +7 (499) 111-22-33
                         </span>
                     </a>

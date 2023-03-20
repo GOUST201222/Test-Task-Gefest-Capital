@@ -1,10 +1,10 @@
 //Sidebar visible
 $('.sidebarTrigger[data-sidebar-id]').on('click', function(){
-  $('.navigation-compact_sidebar').addClass('visible');
+  $('.navigation-compact__sidebar').addClass('visible');
 });
 //Hide on touch to close icon
-$('.sidebar .close').on('click touchstart', function(){
-  $('.navigation-compact_sidebar').removeClass('visible');
+$('.navigation-compact__sidebar__top__right_close').on('click touchstart', function(){
+  $('.navigation-compact__sidebar').removeClass('visible');
 });
 //Swiper
 var swiper = new Swiper(".mySwiper", {
@@ -16,7 +16,7 @@ var swiper = new Swiper(".mySwiper", {
   watchSlidesProgress: true,
   // Responsive breakpoints
   breakpoints: {
-    // when window width is >= 1025px
+    // when window width is >= 640px
     640: {
       slidesPerView: 6.5,
       spaceBetween: 37
