@@ -559,6 +559,12 @@ a{
 }
 @media (max-width: 767px){
 /*Mobile*/
+    .section__content__right{
+        margin-top: 24px;
+    }
+    .section{
+        padding-top: 70px;
+    }
     .section__bottom__tablet{
         display: none;
     }
