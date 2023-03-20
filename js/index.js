@@ -6,10 +6,9 @@ $('.sidebarTrigger[data-sidebar-id]').on('click', function(){
 $('.navigation-compact__sidebar__top__right_close').on('click touchstart', function(){
   $('.navigation-compact__sidebar').removeClass('visible');
 });
+
 //Swiper
 var swiper = new Swiper(".mySwiper", {
-
-
   spaceBetween: 16,
   slidesPerView: 4,
   freeMode: true,
@@ -22,11 +21,9 @@ var swiper = new Swiper(".mySwiper", {
       spaceBetween: 37
     }
   }
-  
-
 });
+
 var swiper2 = new Swiper(".mySwiper2", {
-  
   spaceBetween: 10,
   navigation: {
     nextEl: ".swiper-button-next",
@@ -36,6 +33,7 @@ var swiper2 = new Swiper(".mySwiper2", {
     swiper: swiper,
   },
 });
+
 //Swiper edit
 function swiperEdit(){
   if ($(window).width() <= '768'){

@@ -1,7 +1,6 @@
 body{ 
     font-family: 'Open Sans', sans-serif; 
     margin: 0;
-
     }
 h1{ 
     font-family: 'Prosto One', sans-serif; 
@@ -236,7 +235,6 @@ a{
     margin-top: 0;
     margin-bottom: 0;
 }
-
 .section__bottom__left__item__bottom-description_arrow{
     margin-top: -6px;
     position: relative;
@@ -289,24 +287,24 @@ a{
     padding: 15px;
     margin: 0;
     box-shadow: 0 2px 19px #E8E8E8;
- }
- .navigation-compact__sidebar__bottom{
+}
+.navigation-compact__sidebar__bottom{
     list-style: none;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 36px;
- }
- .navigation-compact__sidebar__bottom_text{
+}
+.navigation-compact__sidebar__bottom_text{
     height: 32px;
     border-bottom: solid 1px #D2D2D2;
     margin-bottom: 36px;
- }
- .navigation-compact__sidebar__bottom a{
+}
+.navigation-compact__sidebar__bottom a{
     font-family: 'Prosto One', sans-serif; 
     font-size: 16px;
     color: #192D4A;
- }
- .navigation-compact__sidebar__bottom_button{
+}
+.navigation-compact__sidebar__bottom_button{
     position: relative;
     max-width: 328px !important;
     min-height: 40px !important;
@@ -317,21 +315,21 @@ a{
     flex-wrap: wrap;
     justify-content: end;
     margin: auto;
- }
- .navigation-compact__sidebar__bottom_button_icon{
+}
+.navigation-compact__sidebar__bottom_button_icon{
     position: absolute;
     left: 65px;
     top: 10px;
- }
- .navigation-compact__sidebar__bottom_button_number{
+}
+.navigation-compact__sidebar__bottom_button_number{
     margin-right: 71.5px;
     text-align: center;
     color: #fff !important;
     font-size: 14px;
     letter-spacing: 0.105em;
     font-family: 'Prosto One', sans-serif; 
- }
- .section__bottom__phone{
+}
+.section__bottom__phone{
     padding-top: 12px;
     padding-bottom: 24px;
     margin-top: 27px !important;
@@ -341,11 +339,11 @@ a{
     width: 100%;
     text-align: center;
     display: none;
- }
- .section__bottom__phone ul{
+}
+.section__bottom__phone ul{
     list-style: none;
- }
- .section__bottom__tablet{
+}
+.section__bottom__tablet{
     padding-top: 30px;
     padding-bottom: 25px;
     margin-top: 36px !important;
@@ -356,8 +354,8 @@ a{
     width: 97%;
     text-align: center;
     display: none;
- }
- .section__bottom__tablet .section__bottom__tablet__top{
+}
+.section__bottom__tablet .section__bottom__tablet__top{
     padding-left: 0;
     margin-left: 24px;
     margin-right: 24px;
@@ -484,7 +482,6 @@ a{
     margin-right: 89px !important;
 }
 @media (max-width: 1856px){
-
     .section__bottom{
         width: 97%;
     }
@@ -503,21 +500,17 @@ a{
     .section .section__content{
         display: block;
     }
-
     .section__bottom_button{
         margin-top: 12px;
         max-height: 48px;
         max-width: 280px;
     }
-
     .section__content__right{
         position: relative;
         list-style:none;
-        
         align-items:center;
         margin-left: 0 !important;
         margin-right: 0 !important;
-        
      }
      .section__bottom__right__item{
         text-align: center;
@@ -563,7 +556,6 @@ a{
     .swiper-button-prev{
         margin-right: 89px !important;
     }
-
 }
 @media (max-width: 767px){
 /*Mobile*/
@@ -614,7 +606,6 @@ a{
         max-height: 183px !important;
       }
 }
-
 @media (min-width: 710px) {
       .mySwiper2 {
         height: 340px !important;
